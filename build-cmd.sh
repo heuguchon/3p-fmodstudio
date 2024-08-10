@@ -35,7 +35,7 @@ case "$AUTOBUILD_PLATFORM" in
     FMOD_PLATFORM="win-installer"
     FMOD_FILEEXTENSION=".exe"
     ;;
-    "darwin")
+    darwin*)
     FMOD_PLATFORM="mac-installer"
     FMOD_FILEEXTENSION=".dmg"
     ;;
